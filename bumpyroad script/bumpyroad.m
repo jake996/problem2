@@ -22,4 +22,4 @@ ylabel('Signal', 'FontSize', fontSize);
 % Make bolder x axis
 line(xlim, [0,0], 'Color', 'k', 'LineWidth', 3);
 legend('30 Hz', '60 Hz', 'Sum');
-sim(problem2);
+sim('problem2.slx');
