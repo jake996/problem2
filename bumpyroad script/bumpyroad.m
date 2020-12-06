@@ -1,5 +1,5 @@
-t=0:0.01:100;
+t = linspace(0,3*pi) ;
 t=t';
 input=0.1*sin(t) ; 
-r(t>pi)=0 ;
-plot(t,r,'linewidth',10)
+input(t>pi)=0 ;
+plot(t,input,'linewidth',10)
